@@ -1,0 +1,124 @@
+@import url("https://fonts.googleapis.com/css2?family=El+Messiri");
+body{
+font-family:"Al Messiri", sans-serif;
+margin:0;
+padding:0;
+background-color:#f4f4f4;
+direction:rtl;
+ }
+ main{
+     display:flex;
+     flex-wrap:wrap;
+ }
+ main>section{
+     width:100%;
+     margin:auto;
+     overflow:hidden;
+ }
+ #header{
+     background:#353637;
+     display:flex;
+     flex-flow:row wrap;
+     justify-content:center;
+     align-content:center;
+     align-items:center;
+     border-bottom:3px solid #32a0c2;
+     padding:0px 120px;
+ }
+ #branding h1{
+     font-size:28px;
+ }
+ nav>ul{
+     margin-top:0;
+     list-style-type:none;
+ }
+ #header a{
+     color:#ffffff;
+     text-decoration:none;
+ }
+ nav>ul>li{
+     float:right;
+     margin-left:15px;
+ }
+ li a{
+     color:#ffffff;
+     text-decoration:none;
+ }
+ #header .highlight, #header .current a{
+     color:#32a0c2;
+ }
+ #showcase{
+     background: url("..//img/image.jpg") no-repeat center;
+     color:#ffffff;
+     text-align:center;
+     background-size:cover;
+     min-height:500px;
+ }
+ #showcase h1{
+     margin-top:150px;
+     margin-bottom:10px;
+     font-size:55px;
+ }
+ #showcase p{
+     font-size:20px;
+ }
+ #newsletter{
+     color:#ffffff;
+     background-color:#353637;
+     padding:15px 120px;
+     display:flex;
+     flex-flow:row wrap;
+     justify-content:center;
+     align-content:center;
+     align-items:center;
+ }
+ #newsletter h1{
+     float:right;
+ }
+ #newsletter form{
+     float:left;
+     margin-top:15px;
+     display:flex;
+     flex-grow:row wrap;
+     justify-content:center;
+     align-content:center;
+     align-items:center;
+ }
+ #newsletter input[type="email"]{
+     padding:4px;
+     height: 25px;
+     width:250px;
+ }
+ .button{
+     padding-left:20px;
+     padding-right:20px;
+     color:#353637;
+     background:#cccccc;
+     height:38px;
+
+ }
+ #boxes{
+     margin-top:20px;
+     padding:60px 120px;
+     display:flex;
+     flex-flow:row wrap;
+     justify-content:center;
+     align-content:center;
+     align-items:center;
+ }
+ #boxes .box{
+     text-align:center;
+     margin-left:20px;
+ }
+ @media(max-width:1020px){
+     #boxes{
+         flex-direction:column;
+     }
+ }
+ #footer{
+     background-color:#32a0c2;
+     text-align:center;
+     margin-top:20px;
+     padding:20px;
+     color:#ffffff;
+ }
